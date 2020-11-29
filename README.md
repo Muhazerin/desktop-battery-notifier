@@ -1,4 +1,6 @@
 # Desktop Battery Notifier
+![](https://img.shields.io/badge/platform-Windows10-blue)
+
 A simple program that notifies the user when the battery goes beyond the specified limit
 
 ![](https://i.imgur.com/dLFg9A5.png)
