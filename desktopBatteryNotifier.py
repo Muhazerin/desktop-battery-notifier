@@ -97,6 +97,7 @@ class Window(QDialog, window.Ui_Dialog):
                 self.icon, 2000)
 
     def setSystemTrayIcon(self):
+        self.icon = QIcon(":/battery.png")
         self.trayIcon.setIcon(QIcon(":/battery.png"))
 
     def closeApp(self):
@@ -122,7 +123,7 @@ class Window(QDialog, window.Ui_Dialog):
         self.trayIcon = QSystemTrayIcon(self)
         self.trayIcon.setContextMenu(self.trayIconMenu)
 
-if __name__ == "__main__":
+def main():
     app = QApplication(sys.argv)
 
     QApplication.setQuitOnLastWindowClosed(False)
@@ -130,3 +131,6 @@ if __name__ == "__main__":
     window = Window()
     window.show()
     sys.exit(app.exec_())
+
+if __name__ == "__main__":
+    main()
