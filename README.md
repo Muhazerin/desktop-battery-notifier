@@ -13,7 +13,7 @@ A simple program that notifies the user when the battery goes beyond the specifi
 The user can specify the upper and lower battery limit.  
 
 ### Notification
-The program will check the battery every 5 minutes. Appropriate notification will be sent when the battery hits or goes beyond the limit.
+The program will check the battery every 5 minutes. An appropriate notification will be sent when the battery hits or goes beyond the limit.
 
 ### Background app
 The program runs in the background. To quit the program, go to System Tray > right-click the program, press Quit.
